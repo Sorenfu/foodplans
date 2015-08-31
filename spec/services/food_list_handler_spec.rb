@@ -6,21 +6,16 @@ describe Services::FoodListHandler do
 
   it 'gets food list' do
     VCR.use_cassette('food_handler') do
-      puts subject.get_list_for_week(date)
-    end
-  end
-
-  it 'gets another food list' do
-    VCR.use_cassette('food_handler') do
-      puts subject.get_list_for_week(date2)
+      expect { subject.get_list_for_week(date) }.not_to raise_error
     end
   end
 
   it 'gets historical recipes' do
     VCR.use_cassette('historical_recipes') do
       Timecop.freeze(date2) do
-        puts subject.get_historical_recipes(10)
+        expect { subject.get_historical_recipes(10) }.to change { FoodList.count }.by(10)
       end
     end
   end
+
 end

@@ -1,3 +1,5 @@
+require 'net/http'
+
 module Services
   class FoodListHandler
     FOOD_LIST_URL = 'http://www.aarstiderne.com/Services/ItemWebService.asmx/GetBuildOfMaterial'
