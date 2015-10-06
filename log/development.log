@@ -3244,3 +3244,791 @@ Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-31 19:56:47 +020
 
 
 Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-31 19:56:47 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-01 09:19:40 +0200
+
+LoadError (cannot load such file -- /Users/bob/aarstiderne/config/routes.rb):
+  activesupport (4.1.10) lib/active_support/dependencies.rb:241:in `load'
+  activesupport (4.1.10) lib/active_support/dependencies.rb:241:in `block in load'
+  activesupport (4.1.10) lib/active_support/dependencies.rb:232:in `load_dependency'
+  activesupport (4.1.10) lib/active_support/dependencies.rb:241:in `load'
+  railties (4.1.10) lib/rails/application/routes_reloader.rb:40:in `block in load_paths'
+  railties (4.1.10) lib/rails/application/routes_reloader.rb:40:in `each'
+  railties (4.1.10) lib/rails/application/routes_reloader.rb:40:in `load_paths'
+  railties (4.1.10) lib/rails/application/routes_reloader.rb:16:in `reload!'
+  railties (4.1.10) lib/rails/application/routes_reloader.rb:26:in `block in updater'
+  activesupport (4.1.10) lib/active_support/file_update_checker.rb:75:in `call'
+  activesupport (4.1.10) lib/active_support/file_update_checker.rb:75:in `execute'
+  railties (4.1.10) lib/rails/application/routes_reloader.rb:7:in `execute'
+  railties (4.1.10) lib/rails/application/finisher.rb:83:in `block (2 levels) in <module:Finisher>'
+  activesupport (4.1.10) lib/active_support/callbacks.rb:443:in `instance_exec'
+  activesupport (4.1.10) lib/active_support/callbacks.rb:443:in `block in make_lambda'
+  activesupport (4.1.10) lib/active_support/callbacks.rb:187:in `call'
+  activesupport (4.1.10) lib/active_support/callbacks.rb:187:in `block in simple'
+  activesupport (4.1.10) lib/active_support/callbacks.rb:501:in `call'
+  activesupport (4.1.10) lib/active_support/callbacks.rb:501:in `block in call'
+  activesupport (4.1.10) lib/active_support/callbacks.rb:501:in `each'
+  activesupport (4.1.10) lib/active_support/callbacks.rb:501:in `call'
+  activesupport (4.1.10) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.10) lib/action_dispatch/middleware/reloader.rb:83:in `prepare!'
+  actionpack (4.1.10) lib/action_dispatch/middleware/reloader.rb:71:in `call'
+  actionpack (4.1.10) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.10) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.10) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.10) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.10) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.10) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.10) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.10) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.10) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.10) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.10) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.10) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.10) lib/rails/engine.rb:514:in `call'
+  railties (4.1.10) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/bob/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/bob/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/bob/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/bob/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.10/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.3ms)
+  Rendered /Users/bob/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.5ms)
+  Rendered /Users/bob/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (14.3ms)
+  Rendered /Users/bob/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.10/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (56.4ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2015-09-01 09:19:41 +0200
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (4.1.10) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.10) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.10) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.10) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.10) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.10) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.10) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.10) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.10) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.10) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.10) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.10) lib/rails/engine.rb:514:in `call'
+  railties (4.1.10) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/bob/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/bob/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/bob/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/bob/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.10/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /Users/bob/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.10/lib/action_dispatch/middleware/templates/routes/_table.html.erb (24.3ms)
+  Rendered /Users/bob/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.10/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (39.3ms)
+Getting url: http://www.aarstiderne.com/Services/ItemWebService.asmx/GetBuildOfMaterial
+Getting url: http://www.aarstiderne.com/Opskrifter/Menuoversigt?&persons=2&days=3&d=08-09-2015
+PG::UndefinedTable: ERROR:  relation "food_lists" does not exist
+LINE 5:                WHERE a.attrelid = '"food_lists"'::regclass
+                                          ^
+:               SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+                     pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod
+                FROM pg_attribute a LEFT JOIN pg_attrdef d
+                  ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+               WHERE a.attrelid = '"food_lists"'::regclass
+                 AND a.attnum > 0 AND NOT a.attisdropped
+               ORDER BY a.attnum
+
+  [1m[36m (44.6ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [1m[35m (3.7ms)[0m  CREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateFoodItems (20150831160313)
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (33.9ms)[0m  [1mCREATE TABLE "food_items" ("id" serial primary key, "name" character varying(255), "quantity" float, "unit" character varying(255), "food_list_id" integer, "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20150831160313"]]
+  [1m[36m (6.2ms)[0m  [1mCOMMIT[0m
+Migrating to CreateFoodLists (20150831160340)
+  [1m[35m (5.4ms)[0m  BEGIN
+  [1m[36m (8.1ms)[0m  [1mCREATE TABLE "food_lists" ("id" serial primary key, "date" date, "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20150831160340"]]
+  [1m[36m (5.9ms)[0m  [1mCOMMIT[0m
+Migrating to CreateRecipes (20150831171100)
+  [1m[35m (6.1ms)[0m  BEGIN
+  [1m[36m (14.7ms)[0m  [1mCREATE TABLE "recipes" ("id" serial primary key, "url" character varying(255), "name" character varying(255), "food_list_id" integer, "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20150831171100"]]
+  [1m[36m (4.7ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Getting url: http://www.aarstiderne.com/Services/ItemWebService.asmx/GetBuildOfMaterial
+Getting url: http://www.aarstiderne.com/Opskrifter/Menuoversigt?&persons=2&days=3&d=08-09-2015
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mFoodList Exists (0.4ms)[0m  SELECT  1 AS one FROM "food_lists"  WHERE "food_lists"."date" = '2015-09-08' LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "food_lists" ("created_at", "date", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["created_at", "2015-09-09 14:33:47.131187"], ["date", "2015-09-08"], ["updated_at", "2015-09-09 14:33:47.131187"]]
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", "2015-09-09 14:33:47.133754"], ["food_list_id", 1], ["name", "Lyssej filet med skind 375g"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:33:47.133754"]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2015-09-09 14:33:47.136267"], ["food_list_id", 1], ["name", "Svinekoteletter 2 x125 g"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:33:47.136267"]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", "2015-09-09 14:33:47.137443"], ["food_list_id", 1], ["name", "Bacon 300 gram"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:33:47.137443"]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2015-09-09 14:33:47.138412"], ["food_list_id", 1], ["name", "Kalkun tern 380-420 gram"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:33:47.138412"]]
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", "2015-09-09 14:33:47.139365"], ["food_list_id", 1], ["name", "Rødbeder 400 g DK"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:33:47.139365"]]
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2015-09-09 14:33:47.140429"], ["food_list_id", 1], ["name", "Sommerrødkål DK"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:33:47.140429"]]
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", "2015-09-09 14:33:47.142331"], ["food_list_id", 1], ["name", "Citron gul lille"], ["quantity", 2.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:33:47.142331"]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2015-09-09 14:33:47.143796"], ["food_list_id", 1], ["name", "Fennikel m top 250-300 g DK"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:33:47.143796"]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", "2015-09-09 14:33:47.145370"], ["food_list_id", 1], ["name", "Gulerødder 500 g"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:33:47.145370"]]
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2015-09-09 14:33:47.160931"], ["food_list_id", 1], ["name", "Hvidløg cal 30/40"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:33:47.160931"]]
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", "2015-09-09 14:33:47.162738"], ["food_list_id", 1], ["name", "Ingefær"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:33:47.162738"]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2015-09-09 14:33:47.164545"], ["food_list_id", 1], ["name", "Chili mild"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:33:47.164545"]]
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", "2015-09-09 14:33:47.166276"], ["food_list_id", 1], ["name", "Rødløg løse max 80 mm"], ["quantity", 0.1], ["unit", "KG"], ["updated_at", "2015-09-09 14:33:47.166276"]]
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2015-09-09 14:33:47.167980"], ["food_list_id", 1], ["name", "Thai basilikum i potte DK"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:33:47.167980"]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", "2015-09-09 14:33:47.169878"], ["food_list_id", 1], ["name", "Selleriknold m top min 350g DK"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:33:47.169878"]]
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2015-09-09 14:33:47.171980"], ["food_list_id", 1], ["name", "Salat Little Gem 1 stk DK"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:33:47.171980"]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", "2015-09-09 14:33:47.174149"], ["food_list_id", 1], ["name", "Appelsin cal 3/4/5"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:33:47.174149"]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2015-09-09 14:33:47.175794"], ["food_list_id", 1], ["name", "Karse DK"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:33:47.175794"]]
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "recipes" ("created_at", "food_list_id", "name", "updated_at", "url") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2015-09-09 14:33:47.177347"], ["food_list_id", 1], ["name", " Pocheret lyssej med stegt rødkål og syrlig rødbedesalat med karse"], ["updated_at", "2015-09-09 14:33:47.177347"], ["url", "/System/IFrames/Opskrift/bagt-torsk-med-bladbeder-og-roedbeder-med-citron1"]]
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "recipes" ("created_at", "food_list_id", "name", "updated_at", "url") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2015-09-09 14:33:47.194080"], ["food_list_id", 1], ["name", " Grillede svinekoteletter, stegt knoldselleri, sprød bacon og rødkålssalat"], ["updated_at", "2015-09-09 14:33:47.194080"], ["url", "/System/IFrames/Opskrift/grillede-svinekoteletter-stegt-knoldselleri-sproed-bacon-og-roedkaalssalat"]]
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "recipes" ("created_at", "food_list_id", "name", "updated_at", "url") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2015-09-09 14:33:47.195791"], ["food_list_id", 1], ["name", " Asiatisk salat med stegt kalkun i ingefær"], ["updated_at", "2015-09-09 14:33:47.195791"], ["url", "/System/IFrames/Opskrift/asiatisk-salat-med-stegt-kalkun-i-ingefaer1"]]
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "recipes" ("created_at", "food_list_id", "name", "updated_at", "url") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2015-09-09 14:33:47.197340"], ["food_list_id", 1], ["name", " Ovnstegte kyllingelår og løg i krydret tomatsauce"], ["updated_at", "2015-09-09 14:33:47.197340"], ["url", "/System/IFrames/Opskrift/ovnstegte-kyllingelaar-og-loeg-i-krydret-tomatsauce-med-hvidloeg"]]
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "recipes" ("created_at", "food_list_id", "name", "updated_at", "url") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2015-09-09 14:33:47.198921"], ["food_list_id", 1], ["name", " Røget kulmule med spidskål, gul squash, æble og dild"], ["updated_at", "2015-09-09 14:33:47.198921"], ["url", "/System/IFrames/Opskrift/roeget-kulmule-med-cremet-kaalsalat-med-aeble-og-dild"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+Getting url: http://www.aarstiderne.com/Services/ItemWebService.asmx/GetBuildOfMaterial
+Getting url: http://www.aarstiderne.com/Opskrifter/Menuoversigt?&persons=2&days=3&d=01-09-2015
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mFoodList Exists (7.8ms)[0m  [1mSELECT  1 AS one FROM "food_lists"  WHERE "food_lists"."date" = '2015-09-01' LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "food_lists" ("created_at", "date", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["created_at", "2015-09-09 14:33:48.455947"], ["date", "2015-09-01"], ["updated_at", "2015-09-09 14:33:48.455947"]]
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2015-09-09 14:33:48.457653"], ["food_list_id", 2], ["name", "Rødspættefilet a 100g+ 375 g"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:33:48.457653"]]
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", "2015-09-09 14:33:48.458916"], ["food_list_id", 2], ["name", "Hk oksekød 8 - 12% 400 g"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:33:48.458916"]]
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2015-09-09 14:33:48.459948"], ["food_list_id", 2], ["name", "Æg 4 stk"], ["quantity", 2.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:33:48.459948"]]
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", "2015-09-09 14:33:48.460932"], ["food_list_id", 2], ["name", "Dampet muslinger egen saft95g"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:33:48.460932"]]
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2015-09-09 14:33:48.461916"], ["food_list_id", 2], ["name", "Salat DK"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:33:48.461916"]]
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", "2015-09-09 14:33:48.462873"], ["food_list_id", 2], ["name", "Skærm dild 6-7 stk ps DK"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:33:48.462873"]]
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2015-09-09 14:33:48.463849"], ["food_list_id", 2], ["name", "Sweet potatoes 500 g"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:33:48.463849"]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", "2015-09-09 14:33:48.464852"], ["food_list_id", 2], ["name", "Grapefrugt 180-250 g"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:33:48.464852"]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2015-09-09 14:33:48.466494"], ["food_list_id", 2], ["name", "Broccoli DK 400 g"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:33:48.466494"]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", "2015-09-09 14:33:48.468826"], ["food_list_id", 2], ["name", "Tomater"], ["quantity", 0.3], ["unit", "KG"], ["updated_at", "2015-09-09 14:33:48.468826"]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2015-09-09 14:33:48.470421"], ["food_list_id", 2], ["name", "Løg DK 40/60 mm"], ["quantity", 3.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:33:48.470421"]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", "2015-09-09 14:33:48.471787"], ["food_list_id", 2], ["name", "Hvidløg cal 30/40"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:33:48.471787"]]
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2015-09-09 14:33:48.494715"], ["food_list_id", 2], ["name", "Grønkål 150 g DK"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:33:48.494715"]]
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", "2015-09-09 14:33:48.496504"], ["food_list_id", 2], ["name", "Portobello"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:33:48.496504"]]
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2015-09-09 14:33:48.498141"], ["food_list_id", 2], ["name", "Rød peber 200-250 g"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:33:48.498141"]]
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", "2015-09-09 14:33:48.500008"], ["food_list_id", 2], ["name", "Squash 150-200 gram"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:33:48.500008"]]
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "recipes" ("created_at", "food_list_id", "name", "updated_at", "url") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2015-09-09 14:33:48.501965"], ["food_list_id", 2], ["name", " Stegt rødspættefilet med ristet broccoli og salat med grape og krondild"], ["updated_at", "2015-09-09 14:33:48.501965"], ["url", "/System/IFrames/Opskrift/stegt-roedspaettefilet-med-ristet-broccoli-og-salat-med-grape-og-krondild3"]]
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "recipes" ("created_at", "food_list_id", "name", "updated_at", "url") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2015-09-09 14:33:48.503945"], ["food_list_id", 2], ["name", " Hakkebøf med bagte søde kartofler, tomater og rød peber"], ["updated_at", "2015-09-09 14:33:48.503945"], ["url", "/System/IFrames/Opskrift/krydret-hakkeboef-med-bagte-soede-kartofler-tomater-og-roed-peber3"]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "recipes" ("created_at", "food_list_id", "name", "updated_at", "url") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2015-09-09 14:33:48.505814"], ["food_list_id", 2], ["name", " Æggekage med svampe, muslinger, squash og grønkål"], ["updated_at", "2015-09-09 14:33:48.505814"], ["url", "/System/IFrames/Opskrift/svampeaeggekage-med-muslinger-squash-og-groenkaal3"]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "recipes" ("created_at", "food_list_id", "name", "updated_at", "url") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2015-09-09 14:33:48.507359"], ["food_list_id", 2], ["name", " Spidskålswraps med pulled pork, ristet kål og æble-løgsalat"], ["updated_at", "2015-09-09 14:33:48.507359"], ["url", "/System/IFrames/Opskrift/spidskaalswraps-med-pulled-pork-ristet-kaal-og-aeble-loegsalat1"]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "recipes" ("created_at", "food_list_id", "name", "updated_at", "url") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2015-09-09 14:33:48.508385"], ["food_list_id", 2], ["name", " Lynstegte oksetern med bagt hokkaido og gulerodssalat med kokos"], ["updated_at", "2015-09-09 14:33:48.508385"], ["url", "/System/IFrames/Opskrift/lynstegte-tern-af-okse-med-bagt-hokkaido-og-gulerodssalat-med-citron1"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+Getting url: http://www.aarstiderne.com/Services/ItemWebService.asmx/GetBuildOfMaterial
+Getting url: http://www.aarstiderne.com/Opskrifter/Menuoversigt?&persons=2&days=3&d=25-08-2015
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mFoodList Exists (0.3ms)[0m  SELECT  1 AS one FROM "food_lists"  WHERE "food_lists"."date" = '2015-08-25' LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "food_lists" ("created_at", "date", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["created_at", "2015-09-09 14:33:50.078340"], ["date", "2015-08-25"], ["updated_at", "2015-09-09 14:33:50.078340"]]
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", "2015-09-09 14:33:50.079558"], ["food_list_id", 3], ["name", "Makrel i filet 375 g"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:33:50.079558"]]
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2015-09-09 14:33:50.080527"], ["food_list_id", 3], ["name", "Oksekød i tynde skiver 300 g"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:33:50.080527"]]
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", "2015-09-09 14:33:50.081402"], ["food_list_id", 3], ["name", "Svinekotteletter"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:33:50.081402"]]
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2015-09-09 14:33:50.082274"], ["food_list_id", 3], ["name", "Blomkål DK"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:33:50.082274"]]
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", "2015-09-09 14:33:50.083184"], ["food_list_id", 3], ["name", "Salat little Gem rødt 1stk DK"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:33:50.083184"]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2015-09-09 14:33:50.084094"], ["food_list_id", 3], ["name", "Løg hvide Loja"], ["quantity", 0.3], ["unit", "KG"], ["updated_at", "2015-09-09 14:33:50.084094"]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", "2015-09-09 14:33:50.085217"], ["food_list_id", 3], ["name", "Chili mild"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:33:50.085217"]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2015-09-09 14:33:50.086341"], ["food_list_id", 3], ["name", "Fennikel m top 250-300 g DK"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:33:50.086341"]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", "2015-09-09 14:33:50.088071"], ["food_list_id", 3], ["name", "Citron gul lille"], ["quantity", 2.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:33:50.088071"]]
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2015-09-09 14:33:50.089291"], ["food_list_id", 3], ["name", "Porre min 15 mm DK"], ["quantity", 2.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:33:50.089291"]]
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", "2015-09-09 14:33:50.090208"], ["food_list_id", 3], ["name", "Kruspersille min 50 g DK"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:33:50.090208"]]
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2015-09-09 14:33:50.091075"], ["food_list_id", 3], ["name", "Frilandstomater"], ["quantity", 0.6], ["unit", "KG"], ["updated_at", "2015-09-09 14:33:50.091075"]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", "2015-09-09 14:33:50.092105"], ["food_list_id", 3], ["name", "Hvidløg cal 30/40"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:33:50.092105"]]
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2015-09-09 14:33:50.093295"], ["food_list_id", 3], ["name", "Squash 250-300 g"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:33:50.093295"]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", "2015-09-09 14:33:50.094381"], ["food_list_id", 3], ["name", "Dild 40 g DK"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:33:50.094381"]]
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2015-09-09 14:33:50.095546"], ["food_list_id", 3], ["name", "Bundt gulerødder DK"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:33:50.095546"]]
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "recipes" ("created_at", "food_list_id", "name", "updated_at", "url") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2015-09-09 14:33:50.096749"], ["food_list_id", 3], ["name", " Skindstegt makrel med stegt salat og blomkåls-couscous"], ["updated_at", "2015-09-09 14:33:50.096749"], ["url", "/System/IFrames/Opskrift/skindstegt-makrel-med-stegt-salat-og-blomkaalscouscous3"]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "recipes" ("created_at", "food_list_id", "name", "updated_at", "url") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2015-09-09 14:33:50.097851"], ["food_list_id", 3], ["name", " Grillede koteletter med grønne sager i frisk tomat"], ["updated_at", "2015-09-09 14:33:50.097851"], ["url", "/System/IFrames/Opskrift/grillede-koteletter-med-groenne-sager-i-frisk-tomat3"]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "recipes" ("created_at", "food_list_id", "name", "updated_at", "url") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2015-09-09 14:33:50.098969"], ["food_list_id", 3], ["name", " Stegt okse med dampet grønt og squashsalat"], ["updated_at", "2015-09-09 14:33:50.098969"], ["url", "/System/IFrames/Opskrift/stegt-okse-med-dampet-porre-og-stegt-kaal3"]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "recipes" ("created_at", "food_list_id", "name", "updated_at", "url") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2015-09-09 14:33:50.100191"], ["food_list_id", 3], ["name", " Strimler af svinenakke med krydret aubergine og spidskålssalat"], ["updated_at", "2015-09-09 14:33:50.100191"], ["url", "/System/IFrames/Opskrift/strimler-af-svinenakke-med-krydret-aubergine-og-spidskaalssalat1"]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "recipes" ("created_at", "food_list_id", "name", "updated_at", "url") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2015-09-09 14:33:50.101564"], ["food_list_id", 3], ["name", " Oksesteg med grillet spidskål, svampe og græskarkerner"], ["updated_at", "2015-09-09 14:33:50.101564"], ["url", "/System/IFrames/Opskrift/oksesteg-med-grillet-spidskaal-svampe-og-graeskarkerner1"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+Getting url: http://www.aarstiderne.com/Services/ItemWebService.asmx/GetBuildOfMaterial
+Getting url: http://www.aarstiderne.com/Opskrifter/Menuoversigt?&persons=2&days=3&d=18-08-2015
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mFoodList Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "food_lists"  WHERE "food_lists"."date" = '2015-08-18' LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "food_lists" ("created_at", "date", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["created_at", "2015-09-09 14:33:52.703941"], ["date", "2015-08-18"], ["updated_at", "2015-09-09 14:33:52.703941"]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2015-09-09 14:33:52.705377"], ["food_list_id", 4], ["name", "Kulmule koteletter 400 g"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:33:52.705377"]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", "2015-09-09 14:33:52.706668"], ["food_list_id", 4], ["name", "Hk oksekød 8 - 12% 400 g"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:33:52.706668"]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2015-09-09 14:33:52.708001"], ["food_list_id", 4], ["name", "Røget makrel 300-400 g"], ["quantity", 2.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:33:52.708001"]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", "2015-09-09 14:33:52.709281"], ["food_list_id", 4], ["name", "Æg 4 stk"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:33:52.709281"]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2015-09-09 14:33:52.710516"], ["food_list_id", 4], ["name", "Portobello"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:33:52.710516"]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", "2015-09-09 14:33:52.711910"], ["food_list_id", 4], ["name", "Tomater datterino 250 g"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:33:52.711910"]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2015-09-09 14:33:52.713077"], ["food_list_id", 4], ["name", "Citron gul lille"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:33:52.713077"]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", "2015-09-09 14:33:52.714383"], ["food_list_id", 4], ["name", "Appelsin cal 6/7"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:33:52.714383"]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2015-09-09 14:33:52.715695"], ["food_list_id", 4], ["name", "Romaine salat rød"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:33:52.715695"]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", "2015-09-09 14:33:52.716948"], ["food_list_id", 4], ["name", "Babosa løg"], ["quantity", 0.5], ["unit", "KG"], ["updated_at", "2015-09-09 14:33:52.716948"]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2015-09-09 14:33:52.718119"], ["food_list_id", 4], ["name", "Paraguayos 250-300g"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:33:52.718119"]]
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", "2015-09-09 14:33:52.719892"], ["food_list_id", 4], ["name", "Røde grønkål 300 g DK"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:33:52.719892"]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2015-09-09 14:33:52.721858"], ["food_list_id", 4], ["name", "Rødløg løse max 80 mm"], ["quantity", 0.15], ["unit", "KG"], ["updated_at", "2015-09-09 14:33:52.721858"]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", "2015-09-09 14:33:52.723267"], ["food_list_id", 4], ["name", "Purløg i potte"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:33:52.723267"]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2015-09-09 14:33:52.724616"], ["food_list_id", 4], ["name", "Avocado formodnet str 12/14"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:33:52.724616"]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "recipes" ("created_at", "food_list_id", "name", "updated_at", "url") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2015-09-09 14:33:52.726053"], ["food_list_id", 4], ["name", " Stegte kulemulekoteletter med ristede svampe og citrus-sauce"], ["updated_at", "2015-09-09 14:33:52.726053"], ["url", "/System/IFrames/Opskrift/stegte-kulemulekoteletter-med-ristede-svampe-og-citronestragonsauce1"]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "recipes" ("created_at", "food_list_id", "name", "updated_at", "url") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2015-09-09 14:33:52.727414"], ["food_list_id", 4], ["name", " Hakkedrenge med bløde løg, spejlæg og salat med ferskener"], ["updated_at", "2015-09-09 14:33:52.727414"], ["url", "/System/IFrames/Opskrift/hakkedrenge-med-bloede-loeg-spejlaeg-og-salat-med-baer1"]]
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "recipes" ("created_at", "food_list_id", "name", "updated_at", "url") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2015-09-09 14:33:52.728692"], ["food_list_id", 4], ["name", " Grydestegt kyllingebryst med stegt blomkål og bladbeder"], ["updated_at", "2015-09-09 14:33:52.728692"], ["url", "/System/IFrames/Opskrift/brystet-fra-grydestegt-kylling-med-stegt-blomkaal-og-bladbeder"]]
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "recipes" ("created_at", "food_list_id", "name", "updated_at", "url") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2015-09-09 14:33:52.729571"], ["food_list_id", 4], ["name", " Sprødstegte kyllingelår med frisk coleslaw"], ["updated_at", "2015-09-09 14:33:52.729571"], ["url", "/System/IFrames/Opskrift/sproedstegte-kyllingelaar-med-frisk-coleslaw"]]
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "recipes" ("created_at", "food_list_id", "name", "updated_at", "url") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2015-09-09 14:33:52.730418"], ["food_list_id", 4], ["name", " Røget makrel à la Sol Over Gudhjem med grønkål og æg"], ["updated_at", "2015-09-09 14:33:52.730418"], ["url", "/System/IFrames/Opskrift/roeget-makrel-sol-over-gudhjem-med-groenkaal-radiser-og-aeg1"]]
+  [1m[36m (6.1ms)[0m  [1mCOMMIT[0m
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-09 16:34:20 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.9ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  [1m[35mFoodList Load (0.6ms)[0m  SELECT "food_lists".* FROM "food_lists"   ORDER BY "food_lists"."date" DESC
+  [1m[36mRecipe Load (0.3ms)[0m  [1mSELECT "recipes".* FROM "recipes"  WHERE "recipes"."food_list_id" = $1[0m  [["food_list_id", 1]]
+  Rendered recipes/_recipe.html.slim (2.3ms)
+  [1m[35mFoodItem Load (0.3ms)[0m  SELECT "food_items".* FROM "food_items"  WHERE "food_items"."food_list_id" = $1  [["food_list_id", 1]]
+  Rendered food_items/_food_item.html.slim (3.8ms)
+  [1m[36mRecipe Load (0.4ms)[0m  [1mSELECT "recipes".* FROM "recipes"  WHERE "recipes"."food_list_id" = $1[0m  [["food_list_id", 2]]
+  Rendered recipes/_recipe.html.slim (0.5ms)
+  [1m[35mFoodItem Load (0.4ms)[0m  SELECT "food_items".* FROM "food_items"  WHERE "food_items"."food_list_id" = $1  [["food_list_id", 2]]
+  Rendered food_items/_food_item.html.slim (0.7ms)
+  [1m[36mRecipe Load (0.4ms)[0m  [1mSELECT "recipes".* FROM "recipes"  WHERE "recipes"."food_list_id" = $1[0m  [["food_list_id", 3]]
+  Rendered recipes/_recipe.html.slim (0.4ms)
+  [1m[35mFoodItem Load (0.3ms)[0m  SELECT "food_items".* FROM "food_items"  WHERE "food_items"."food_list_id" = $1  [["food_list_id", 3]]
+  Rendered food_items/_food_item.html.slim (0.3ms)
+  [1m[36mRecipe Load (0.2ms)[0m  [1mSELECT "recipes".* FROM "recipes"  WHERE "recipes"."food_list_id" = $1[0m  [["food_list_id", 4]]
+  Rendered recipes/_recipe.html.slim (0.2ms)
+  [1m[35mFoodItem Load (0.2ms)[0m  SELECT "food_items".* FROM "food_items"  WHERE "food_items"."food_list_id" = $1  [["food_list_id", 4]]
+  Rendered food_items/_food_item.html.slim (0.3ms)
+  Rendered food_lists/_food_list.html.slim (71.9ms)
+  Rendered welcome/index.html.erb within layouts/application (83.1ms)
+Completed 200 OK in 185ms (Views: 152.0ms | ActiveRecord: 7.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-09 16:34:21 +0200
+Processing by WelcomeController#index as HTML
+  [1m[36mFoodList Load (0.4ms)[0m  [1mSELECT "food_lists".* FROM "food_lists"   ORDER BY "food_lists"."date" DESC[0m
+  [1m[35mRecipe Load (0.2ms)[0m  SELECT "recipes".* FROM "recipes"  WHERE "recipes"."food_list_id" = $1  [["food_list_id", 1]]
+  Rendered recipes/_recipe.html.slim (0.4ms)
+  [1m[36mFoodItem Load (0.3ms)[0m  [1mSELECT "food_items".* FROM "food_items"  WHERE "food_items"."food_list_id" = $1[0m  [["food_list_id", 1]]
+  Rendered food_items/_food_item.html.slim (0.7ms)
+  [1m[35mRecipe Load (0.3ms)[0m  SELECT "recipes".* FROM "recipes"  WHERE "recipes"."food_list_id" = $1  [["food_list_id", 2]]
+  Rendered recipes/_recipe.html.slim (0.3ms)
+  [1m[36mFoodItem Load (0.3ms)[0m  [1mSELECT "food_items".* FROM "food_items"  WHERE "food_items"."food_list_id" = $1[0m  [["food_list_id", 2]]
+  Rendered food_items/_food_item.html.slim (0.3ms)
+  [1m[35mRecipe Load (0.1ms)[0m  SELECT "recipes".* FROM "recipes"  WHERE "recipes"."food_list_id" = $1  [["food_list_id", 3]]
+  Rendered recipes/_recipe.html.slim (0.2ms)
+  [1m[36mFoodItem Load (0.2ms)[0m  [1mSELECT "food_items".* FROM "food_items"  WHERE "food_items"."food_list_id" = $1[0m  [["food_list_id", 3]]
+  Rendered food_items/_food_item.html.slim (0.3ms)
+  [1m[35mRecipe Load (0.1ms)[0m  SELECT "recipes".* FROM "recipes"  WHERE "recipes"."food_list_id" = $1  [["food_list_id", 4]]
+  Rendered recipes/_recipe.html.slim (0.4ms)
+  [1m[36mFoodItem Load (0.3ms)[0m  [1mSELECT "food_items".* FROM "food_items"  WHERE "food_items"."food_list_id" = $1[0m  [["food_list_id", 4]]
+  Rendered food_items/_food_item.html.slim (0.6ms)
+  Rendered food_lists/_food_list.html.slim (21.9ms)
+  Rendered welcome/index.html.erb within layouts/application (24.4ms)
+Completed 200 OK in 54ms (Views: 50.8ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-09-09 16:34:21 +0200
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-09-09 16:34:21 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-09-09 16:34:21 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-09-09 16:34:21 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-09-09 16:34:21 +0200
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-09-09 16:34:21 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-09-09 16:34:21 +0200
+  [1m[36mSQL (1.2ms)[0m  [1mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (4.2ms)[0m  CREATE TABLE "food_items" ("id" serial primary key, "name" character varying(255), "quantity" float, "unit" character varying(255), "food_list_id" integer, "created_at" timestamp, "updated_at" timestamp) 
+  [1m[36m (1.9ms)[0m  [1mCREATE TABLE "food_lists" ("id" serial primary key, "date" date, "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35m (2.8ms)[0m  CREATE TABLE "recipes" ("id" serial primary key, "url" character varying(255), "name" character varying(255), "food_list_id" integer, "created_at" timestamp, "updated_at" timestamp) 
+  [1m[36m (1.1ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [1m[35m (1.3ms)[0m  CREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")
+  [1m[36m (0.5ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (0.5ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20150831171100')
+  [1m[36m (0.4ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20150831160313')[0m
+  [1m[35m (0.4ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20150831160340')
+  [1m[36mSQL (0.3ms)[0m  [1mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (6.9ms)[0m  CREATE TABLE "food_items" ("id" serial primary key, "name" character varying(255), "quantity" float, "unit" character varying(255), "food_list_id" integer, "created_at" timestamp, "updated_at" timestamp) 
+  [1m[36m (2.6ms)[0m  [1mCREATE TABLE "food_lists" ("id" serial primary key, "date" date, "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35m (3.5ms)[0m  CREATE TABLE "recipes" ("id" serial primary key, "url" character varying(255), "name" character varying(255), "food_list_id" integer, "created_at" timestamp, "updated_at" timestamp) 
+  [1m[36m (0.9ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [1m[35m (1.0ms)[0m  CREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")
+  [1m[36m (0.4ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (0.4ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20150831171100')
+  [1m[36m (0.7ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20150831160313')[0m
+  [1m[35m (0.4ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20150831160340')
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Getting url: http://www.aarstiderne.com/Services/ItemWebService.asmx/GetBuildOfMaterial
+Getting url: http://www.aarstiderne.com/Opskrifter/Menuoversigt?&persons=2&days=3&d=08-09-2015
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mFoodList Exists (0.4ms)[0m  SELECT  1 AS one FROM "food_lists"  WHERE "food_lists"."date" = '2015-09-08' LIMIT 1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "food_lists" ("created_at", "date", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["created_at", "2015-09-09 14:35:35.750378"], ["date", "2015-09-08"], ["updated_at", "2015-09-09 14:35:35.750378"]]
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", "2015-09-09 14:35:35.754005"], ["food_list_id", 1], ["name", "Lyssej filet med skind 375g"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:35:35.754005"]]
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2015-09-09 14:35:35.755779"], ["food_list_id", 1], ["name", "Svinekoteletter 2 x125 g"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:35:35.755779"]]
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", "2015-09-09 14:35:35.757397"], ["food_list_id", 1], ["name", "Bacon 300 gram"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:35:35.757397"]]
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2015-09-09 14:35:35.763102"], ["food_list_id", 1], ["name", "Kalkun tern 380-420 gram"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:35:35.763102"]]
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", "2015-09-09 14:35:35.765048"], ["food_list_id", 1], ["name", "Rødbeder 400 g DK"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:35:35.765048"]]
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2015-09-09 14:35:35.766658"], ["food_list_id", 1], ["name", "Sommerrødkål DK"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:35:35.766658"]]
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", "2015-09-09 14:35:35.768418"], ["food_list_id", 1], ["name", "Citron gul lille"], ["quantity", 2.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:35:35.768418"]]
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2015-09-09 14:35:35.770246"], ["food_list_id", 1], ["name", "Fennikel m top 250-300 g DK"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:35:35.770246"]]
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", "2015-09-09 14:35:35.772980"], ["food_list_id", 1], ["name", "Gulerødder 500 g"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:35:35.772980"]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2015-09-09 14:35:35.775229"], ["food_list_id", 1], ["name", "Hvidløg cal 30/40"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:35:35.775229"]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", "2015-09-09 14:35:35.776941"], ["food_list_id", 1], ["name", "Ingefær"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:35:35.776941"]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2015-09-09 14:35:35.778382"], ["food_list_id", 1], ["name", "Chili mild"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:35:35.778382"]]
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", "2015-09-09 14:35:35.793033"], ["food_list_id", 1], ["name", "Rødløg løse max 80 mm"], ["quantity", 0.1], ["unit", "KG"], ["updated_at", "2015-09-09 14:35:35.793033"]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2015-09-09 14:35:35.795163"], ["food_list_id", 1], ["name", "Thai basilikum i potte DK"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:35:35.795163"]]
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", "2015-09-09 14:35:35.796842"], ["food_list_id", 1], ["name", "Selleriknold m top min 350g DK"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:35:35.796842"]]
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2015-09-09 14:35:35.798603"], ["food_list_id", 1], ["name", "Salat Little Gem 1 stk DK"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:35:35.798603"]]
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", "2015-09-09 14:35:35.800279"], ["food_list_id", 1], ["name", "Appelsin cal 3/4/5"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:35:35.800279"]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2015-09-09 14:35:35.802235"], ["food_list_id", 1], ["name", "Karse DK"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:35:35.802235"]]
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "recipes" ("created_at", "food_list_id", "name", "updated_at", "url") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2015-09-09 14:35:35.803603"], ["food_list_id", 1], ["name", " Pocheret lyssej med stegt rødkål og syrlig rødbedesalat med karse"], ["updated_at", "2015-09-09 14:35:35.803603"], ["url", "/System/IFrames/Opskrift/bagt-torsk-med-bladbeder-og-roedbeder-med-citron"]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "recipes" ("created_at", "food_list_id", "name", "updated_at", "url") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2015-09-09 14:35:35.806918"], ["food_list_id", 1], ["name", " Grillede svinekoteletter, stegt knoldselleri, sprød bacon og rødkålssalat"], ["updated_at", "2015-09-09 14:35:35.806918"], ["url", "/System/IFrames/Opskrift/grillede-svinekoteletter-og-broccolisalat-med-sproed-bacon-og-estragon"]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "recipes" ("created_at", "food_list_id", "name", "updated_at", "url") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2015-09-09 14:35:35.808585"], ["food_list_id", 1], ["name", " Asiatisk salat med stegt kalkun i ingefær"], ["updated_at", "2015-09-09 14:35:35.808585"], ["url", "/System/IFrames/Opskrift/asiatisk-salat-med-stegt-kalkun-i-ingefaer"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+Getting url: http://www.aarstiderne.com/Services/ItemWebService.asmx/GetBuildOfMaterial
+Getting url: http://www.aarstiderne.com/Opskrifter/Menuoversigt?&persons=2&days=3&d=01-09-2015
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mFoodList Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "food_lists"  WHERE "food_lists"."date" = '2015-09-01' LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "food_lists" ("created_at", "date", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["created_at", "2015-09-09 14:35:37.202793"], ["date", "2015-09-01"], ["updated_at", "2015-09-09 14:35:37.202793"]]
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2015-09-09 14:35:37.203805"], ["food_list_id", 2], ["name", "Rødspættefilet a 100g+ 375 g"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:35:37.203805"]]
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", "2015-09-09 14:35:37.204699"], ["food_list_id", 2], ["name", "Hk oksekød 8 - 12% 400 g"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:35:37.204699"]]
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2015-09-09 14:35:37.205585"], ["food_list_id", 2], ["name", "Æg 4 stk"], ["quantity", 2.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:35:37.205585"]]
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", "2015-09-09 14:35:37.206475"], ["food_list_id", 2], ["name", "Dampet muslinger egen saft95g"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:35:37.206475"]]
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2015-09-09 14:35:37.207372"], ["food_list_id", 2], ["name", "Salat DK"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:35:37.207372"]]
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", "2015-09-09 14:35:37.208241"], ["food_list_id", 2], ["name", "Skærm dild 6-7 stk ps DK"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:35:37.208241"]]
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2015-09-09 14:35:37.209098"], ["food_list_id", 2], ["name", "Sweet potatoes 500 g"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:35:37.209098"]]
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", "2015-09-09 14:35:37.209938"], ["food_list_id", 2], ["name", "Grapefrugt 180-250 g"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:35:37.209938"]]
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2015-09-09 14:35:37.210769"], ["food_list_id", 2], ["name", "Broccoli DK 400 g"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:35:37.210769"]]
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", "2015-09-09 14:35:37.211626"], ["food_list_id", 2], ["name", "Tomater"], ["quantity", 0.3], ["unit", "KG"], ["updated_at", "2015-09-09 14:35:37.211626"]]
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2015-09-09 14:35:37.212500"], ["food_list_id", 2], ["name", "Løg DK 40/60 mm"], ["quantity", 3.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:35:37.212500"]]
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", "2015-09-09 14:35:37.213333"], ["food_list_id", 2], ["name", "Hvidløg cal 30/40"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:35:37.213333"]]
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2015-09-09 14:35:37.214149"], ["food_list_id", 2], ["name", "Grønkål 150 g DK"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:35:37.214149"]]
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", "2015-09-09 14:35:37.215111"], ["food_list_id", 2], ["name", "Portobello"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:35:37.215111"]]
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2015-09-09 14:35:37.216012"], ["food_list_id", 2], ["name", "Rød peber 200-250 g"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:35:37.216012"]]
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", "2015-09-09 14:35:37.216845"], ["food_list_id", 2], ["name", "Squash 150-200 gram"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:35:37.216845"]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "recipes" ("created_at", "food_list_id", "name", "updated_at", "url") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2015-09-09 14:35:37.217808"], ["food_list_id", 2], ["name", " Stegt rødspættefilet med ristet broccoli og salat med grape og krondild"], ["updated_at", "2015-09-09 14:35:37.217808"], ["url", "/System/IFrames/Opskrift/stegt-roedspaettefilet-med-ristet-broccoli-og-salat-med-grape-og-krondild"]]
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "recipes" ("created_at", "food_list_id", "name", "updated_at", "url") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2015-09-09 14:35:37.218749"], ["food_list_id", 2], ["name", " Hakkebøf med bagte søde kartofler, tomater og rød peber"], ["updated_at", "2015-09-09 14:35:37.218749"], ["url", "/System/IFrames/Opskrift/krydret-hakkeboef-med-bagte-soede-kartofler-tomater-og-roed-peber"]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "recipes" ("created_at", "food_list_id", "name", "updated_at", "url") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2015-09-09 14:35:37.219591"], ["food_list_id", 2], ["name", " Æggekage med svampe, muslinger, squash og grønkål"], ["updated_at", "2015-09-09 14:35:37.219591"], ["url", "/System/IFrames/Opskrift/svampeaeggekage-med-muslinger-squash-og-groenkaal"]]
+  [1m[35m (7.5ms)[0m  COMMIT
+Getting url: http://www.aarstiderne.com/Services/ItemWebService.asmx/GetBuildOfMaterial
+Getting url: http://www.aarstiderne.com/Opskrifter/Menuoversigt?&persons=2&days=3&d=25-08-2015
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mFoodList Exists (0.3ms)[0m  SELECT  1 AS one FROM "food_lists"  WHERE "food_lists"."date" = '2015-08-25' LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "food_lists" ("created_at", "date", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["created_at", "2015-09-09 14:35:38.397103"], ["date", "2015-08-25"], ["updated_at", "2015-09-09 14:35:38.397103"]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", "2015-09-09 14:35:38.398565"], ["food_list_id", 3], ["name", "Makrel i filet 375 g"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:35:38.398565"]]
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2015-09-09 14:35:38.399824"], ["food_list_id", 3], ["name", "Oksekød i tynde skiver 300 g"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:35:38.399824"]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", "2015-09-09 14:35:38.401461"], ["food_list_id", 3], ["name", "Svinekotteletter"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:35:38.401461"]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2015-09-09 14:35:38.403163"], ["food_list_id", 3], ["name", "Blomkål DK"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:35:38.403163"]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", "2015-09-09 14:35:38.404756"], ["food_list_id", 3], ["name", "Salat little Gem rødt 1stk DK"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:35:38.404756"]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2015-09-09 14:35:38.406392"], ["food_list_id", 3], ["name", "Løg hvide Loja"], ["quantity", 0.3], ["unit", "KG"], ["updated_at", "2015-09-09 14:35:38.406392"]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", "2015-09-09 14:35:38.407975"], ["food_list_id", 3], ["name", "Chili mild"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:35:38.407975"]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2015-09-09 14:35:38.409490"], ["food_list_id", 3], ["name", "Fennikel m top 250-300 g DK"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:35:38.409490"]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", "2015-09-09 14:35:38.410974"], ["food_list_id", 3], ["name", "Citron gul lille"], ["quantity", 2.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:35:38.410974"]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2015-09-09 14:35:38.412622"], ["food_list_id", 3], ["name", "Porre min 15 mm DK"], ["quantity", 2.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:35:38.412622"]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", "2015-09-09 14:35:38.414614"], ["food_list_id", 3], ["name", "Kruspersille min 50 g DK"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:35:38.414614"]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2015-09-09 14:35:38.415965"], ["food_list_id", 3], ["name", "Frilandstomater"], ["quantity", 0.6], ["unit", "KG"], ["updated_at", "2015-09-09 14:35:38.415965"]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", "2015-09-09 14:35:38.417326"], ["food_list_id", 3], ["name", "Hvidløg cal 30/40"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:35:38.417326"]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2015-09-09 14:35:38.418666"], ["food_list_id", 3], ["name", "Squash 250-300 g"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:35:38.418666"]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", "2015-09-09 14:35:38.419986"], ["food_list_id", 3], ["name", "Dild 40 g DK"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:35:38.419986"]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2015-09-09 14:35:38.421332"], ["food_list_id", 3], ["name", "Bundt gulerødder DK"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:35:38.421332"]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "recipes" ("created_at", "food_list_id", "name", "updated_at", "url") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2015-09-09 14:35:38.423075"], ["food_list_id", 3], ["name", " Skindstegt makrel med stegt salat og blomkåls-couscous"], ["updated_at", "2015-09-09 14:35:38.423075"], ["url", "/System/IFrames/Opskrift/skindstegt-makrel-med-stegt-salat-og-blomkaalscouscous"]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "recipes" ("created_at", "food_list_id", "name", "updated_at", "url") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2015-09-09 14:35:38.424566"], ["food_list_id", 3], ["name", " Grillede koteletter med grønne sager i frisk tomat"], ["updated_at", "2015-09-09 14:35:38.424566"], ["url", "/System/IFrames/Opskrift/grillede-koteletter-med-groenne-sager-i-frisk-tomat"]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "recipes" ("created_at", "food_list_id", "name", "updated_at", "url") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2015-09-09 14:35:38.425926"], ["food_list_id", 3], ["name", " Stegt okse med dampet grønt og squashsalat"], ["updated_at", "2015-09-09 14:35:38.425926"], ["url", "/System/IFrames/Opskrift/stegt-okse-med-dampet-porre-og-stegt-kaal"]]
+  [1m[36m (8.2ms)[0m  [1mCOMMIT[0m
+Getting url: http://www.aarstiderne.com/Services/ItemWebService.asmx/GetBuildOfMaterial
+Getting url: http://www.aarstiderne.com/Opskrifter/Menuoversigt?&persons=2&days=3&d=18-08-2015
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mFoodList Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "food_lists"  WHERE "food_lists"."date" = '2015-08-18' LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "food_lists" ("created_at", "date", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["created_at", "2015-09-09 14:35:39.471302"], ["date", "2015-08-18"], ["updated_at", "2015-09-09 14:35:39.471302"]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2015-09-09 14:35:39.472753"], ["food_list_id", 4], ["name", "Kulmule koteletter 400 g"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:35:39.472753"]]
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", "2015-09-09 14:35:39.474113"], ["food_list_id", 4], ["name", "Hk oksekød 8 - 12% 400 g"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:35:39.474113"]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2015-09-09 14:35:39.475701"], ["food_list_id", 4], ["name", "Røget makrel 300-400 g"], ["quantity", 2.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:35:39.475701"]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", "2015-09-09 14:35:39.476887"], ["food_list_id", 4], ["name", "Æg 4 stk"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:35:39.476887"]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2015-09-09 14:35:39.478220"], ["food_list_id", 4], ["name", "Portobello"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:35:39.478220"]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", "2015-09-09 14:35:39.479530"], ["food_list_id", 4], ["name", "Tomater datterino 250 g"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:35:39.479530"]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2015-09-09 14:35:39.480813"], ["food_list_id", 4], ["name", "Citron gul lille"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:35:39.480813"]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", "2015-09-09 14:35:39.482097"], ["food_list_id", 4], ["name", "Appelsin cal 6/7"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:35:39.482097"]]
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2015-09-09 14:35:39.483436"], ["food_list_id", 4], ["name", "Romaine salat rød"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:35:39.483436"]]
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", "2015-09-09 14:35:39.485660"], ["food_list_id", 4], ["name", "Babosa løg"], ["quantity", 0.5], ["unit", "KG"], ["updated_at", "2015-09-09 14:35:39.485660"]]
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2015-09-09 14:35:39.487294"], ["food_list_id", 4], ["name", "Paraguayos 250-300g"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:35:39.487294"]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", "2015-09-09 14:35:39.488798"], ["food_list_id", 4], ["name", "Røde grønkål 300 g DK"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:35:39.488798"]]
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2015-09-09 14:35:39.490311"], ["food_list_id", 4], ["name", "Rødløg løse max 80 mm"], ["quantity", 0.15], ["unit", "KG"], ["updated_at", "2015-09-09 14:35:39.490311"]]
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", "2015-09-09 14:35:39.491742"], ["food_list_id", 4], ["name", "Purløg i potte"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:35:39.491742"]]
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "food_items" ("created_at", "food_list_id", "name", "quantity", "unit", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2015-09-09 14:35:39.494665"], ["food_list_id", 4], ["name", "Avocado formodnet str 12/14"], ["quantity", 1.0], ["unit", "stk."], ["updated_at", "2015-09-09 14:35:39.494665"]]
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "recipes" ("created_at", "food_list_id", "name", "updated_at", "url") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2015-09-09 14:35:39.497204"], ["food_list_id", 4], ["name", " Stegte kulemulekoteletter med ristede svampe og citrus-sauce"], ["updated_at", "2015-09-09 14:35:39.497204"], ["url", "/System/IFrames/Opskrift/stegte-kulemulekoteletter-med-ristede-svampe-og-citronestragonsauce"]]
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "recipes" ("created_at", "food_list_id", "name", "updated_at", "url") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", "2015-09-09 14:35:39.499670"], ["food_list_id", 4], ["name", " Hakkedrenge med bløde løg, spejlæg og salat med ferskener"], ["updated_at", "2015-09-09 14:35:39.499670"], ["url", "/System/IFrames/Opskrift/hakkedrenge-med-bloede-loeg-spejlaeg-og-salat-med-baer"]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "recipes" ("created_at", "food_list_id", "name", "updated_at", "url") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", "2015-09-09 14:35:39.502242"], ["food_list_id", 4], ["name", " Røget makrel à la Sol Over Gudhjem med grønkål og æg"], ["updated_at", "2015-09-09 14:35:39.502242"], ["url", "/System/IFrames/Opskrift/roeget-makrel-sol-over-gudhjem-med-groenkaal-radiser-og-aeg"]]
+  [1m[36m (8.3ms)[0m  [1mCOMMIT[0m
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-09 16:35:45 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  [1m[35mFoodList Load (0.6ms)[0m  SELECT "food_lists".* FROM "food_lists"   ORDER BY "food_lists"."date" DESC
+  [1m[36mRecipe Load (0.3ms)[0m  [1mSELECT "recipes".* FROM "recipes"  WHERE "recipes"."food_list_id" = $1[0m  [["food_list_id", 1]]
+  Rendered recipes/_recipe.html.slim (2.2ms)
+  [1m[35mFoodItem Load (0.3ms)[0m  SELECT "food_items".* FROM "food_items"  WHERE "food_items"."food_list_id" = $1  [["food_list_id", 1]]
+  Rendered food_items/_food_item.html.slim (2.6ms)
+  [1m[36mRecipe Load (0.3ms)[0m  [1mSELECT "recipes".* FROM "recipes"  WHERE "recipes"."food_list_id" = $1[0m  [["food_list_id", 2]]
+  Rendered recipes/_recipe.html.slim (0.2ms)
+  [1m[35mFoodItem Load (0.4ms)[0m  SELECT "food_items".* FROM "food_items"  WHERE "food_items"."food_list_id" = $1  [["food_list_id", 2]]
+  Rendered food_items/_food_item.html.slim (0.6ms)
+  [1m[36mRecipe Load (0.3ms)[0m  [1mSELECT "recipes".* FROM "recipes"  WHERE "recipes"."food_list_id" = $1[0m  [["food_list_id", 3]]
+  Rendered recipes/_recipe.html.slim (0.3ms)
+  [1m[35mFoodItem Load (0.3ms)[0m  SELECT "food_items".* FROM "food_items"  WHERE "food_items"."food_list_id" = $1  [["food_list_id", 3]]
+  Rendered food_items/_food_item.html.slim (0.3ms)
+  [1m[36mRecipe Load (0.2ms)[0m  [1mSELECT "recipes".* FROM "recipes"  WHERE "recipes"."food_list_id" = $1[0m  [["food_list_id", 4]]
+  Rendered recipes/_recipe.html.slim (0.1ms)
+  [1m[35mFoodItem Load (0.2ms)[0m  SELECT "food_items".* FROM "food_items"  WHERE "food_items"."food_list_id" = $1  [["food_list_id", 4]]
+  Rendered food_items/_food_item.html.slim (0.5ms)
+  Rendered food_lists/_food_list.html.slim (62.7ms)
+  Rendered welcome/index.html.erb within layouts/application (71.1ms)
+Completed 200 OK in 137ms (Views: 114.4ms | ActiveRecord: 7.2ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-09-09 16:35:45 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-09-09 16:35:45 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-09-09 16:35:45 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-09-09 16:35:45 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-09-09 16:35:45 +0200
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-09-09 16:35:45 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-09-09 16:35:45 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-09 18:23:41 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (6.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  [1m[35mFoodList Load (12.0ms)[0m  SELECT "food_lists".* FROM "food_lists"   ORDER BY "food_lists"."date" DESC
+  [1m[36mRecipe Load (0.5ms)[0m  [1mSELECT "recipes".* FROM "recipes"  WHERE "recipes"."food_list_id" = $1[0m  [["food_list_id", 1]]
+  Rendered recipes/_recipe.html.slim (2.5ms)
+  [1m[35mFoodItem Load (0.3ms)[0m  SELECT "food_items".* FROM "food_items"  WHERE "food_items"."food_list_id" = $1  [["food_list_id", 1]]
+  Rendered food_items/_food_item.html.slim (2.4ms)
+  [1m[36mRecipe Load (0.2ms)[0m  [1mSELECT "recipes".* FROM "recipes"  WHERE "recipes"."food_list_id" = $1[0m  [["food_list_id", 2]]
+  Rendered recipes/_recipe.html.slim (0.2ms)
+  [1m[35mFoodItem Load (0.2ms)[0m  SELECT "food_items".* FROM "food_items"  WHERE "food_items"."food_list_id" = $1  [["food_list_id", 2]]
+  Rendered food_items/_food_item.html.slim (0.3ms)
+  [1m[36mRecipe Load (0.2ms)[0m  [1mSELECT "recipes".* FROM "recipes"  WHERE "recipes"."food_list_id" = $1[0m  [["food_list_id", 3]]
+  Rendered recipes/_recipe.html.slim (0.1ms)
+  [1m[35mFoodItem Load (0.2ms)[0m  SELECT "food_items".* FROM "food_items"  WHERE "food_items"."food_list_id" = $1  [["food_list_id", 3]]
+  Rendered food_items/_food_item.html.slim (0.3ms)
+  [1m[36mRecipe Load (0.2ms)[0m  [1mSELECT "recipes".* FROM "recipes"  WHERE "recipes"."food_list_id" = $1[0m  [["food_list_id", 4]]
+  Rendered recipes/_recipe.html.slim (0.2ms)
+  [1m[35mFoodItem Load (0.2ms)[0m  SELECT "food_items".* FROM "food_items"  WHERE "food_items"."food_list_id" = $1  [["food_list_id", 4]]
+  Rendered food_items/_food_item.html.slim (0.3ms)
+  Rendered food_lists/_food_list.html.slim (63.6ms)
+  Rendered welcome/index.html.erb within layouts/application (85.4ms)
+Completed 200 OK in 158ms (Views: 125.4ms | ActiveRecord: 19.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-09-09 18:23:42 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-09-09 18:23:42 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-09-09 18:23:42 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-09-09 18:23:42 +0200
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-09-09 18:23:42 +0200
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-09-09 18:23:42 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-09-09 18:23:42 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-09 19:17:09 +0200
+Processing by WelcomeController#index as HTML
+  [1m[36mFoodList Load (0.3ms)[0m  [1mSELECT "food_lists".* FROM "food_lists"   ORDER BY "food_lists"."date" DESC[0m
+  [1m[35mRecipe Load (0.2ms)[0m  SELECT "recipes".* FROM "recipes"  WHERE "recipes"."food_list_id" = $1  [["food_list_id", 1]]
+  Rendered recipes/_recipe.html.slim (0.2ms)
+  [1m[36mFoodItem Load (0.3ms)[0m  [1mSELECT "food_items".* FROM "food_items"  WHERE "food_items"."food_list_id" = $1[0m  [["food_list_id", 1]]
+  Rendered food_items/_food_item.html.slim (0.4ms)
+  [1m[35mRecipe Load (0.2ms)[0m  SELECT "recipes".* FROM "recipes"  WHERE "recipes"."food_list_id" = $1  [["food_list_id", 2]]
+  Rendered recipes/_recipe.html.slim (0.1ms)
+  [1m[36mFoodItem Load (0.2ms)[0m  [1mSELECT "food_items".* FROM "food_items"  WHERE "food_items"."food_list_id" = $1[0m  [["food_list_id", 2]]
+  Rendered food_items/_food_item.html.slim (0.3ms)
+  [1m[35mRecipe Load (0.1ms)[0m  SELECT "recipes".* FROM "recipes"  WHERE "recipes"."food_list_id" = $1  [["food_list_id", 3]]
+  Rendered recipes/_recipe.html.slim (0.1ms)
+  [1m[36mFoodItem Load (0.2ms)[0m  [1mSELECT "food_items".* FROM "food_items"  WHERE "food_items"."food_list_id" = $1[0m  [["food_list_id", 3]]
+  Rendered food_items/_food_item.html.slim (0.3ms)
+  [1m[35mRecipe Load (0.1ms)[0m  SELECT "recipes".* FROM "recipes"  WHERE "recipes"."food_list_id" = $1  [["food_list_id", 4]]
+  Rendered recipes/_recipe.html.slim (0.2ms)
+  [1m[36mFoodItem Load (0.2ms)[0m  [1mSELECT "food_items".* FROM "food_items"  WHERE "food_items"."food_list_id" = $1[0m  [["food_list_id", 4]]
+  Rendered food_items/_food_item.html.slim (0.4ms)
+  Rendered food_lists/_food_list.html.slim (16.1ms)
+  Rendered welcome/index.html.erb within layouts/application (18.4ms)
+Completed 200 OK in 47ms (Views: 44.7ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-09-09 19:17:09 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-09-09 19:17:09 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-09-09 19:17:09 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-09-09 19:17:09 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-09-09 19:17:09 +0200
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-09-09 19:17:09 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-09-09 19:17:09 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-06 15:13:50 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (28.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  [1m[35mFoodList Load (24.6ms)[0m  SELECT "food_lists".* FROM "food_lists"   ORDER BY "food_lists"."date" DESC
+  [1m[36mRecipe Load (13.3ms)[0m  [1mSELECT "recipes".* FROM "recipes"  WHERE "recipes"."food_list_id" = $1[0m  [["food_list_id", 1]]
+  Rendered recipes/_recipe.html.slim (3.0ms)
+  [1m[35mFoodItem Load (22.9ms)[0m  SELECT "food_items".* FROM "food_items"  WHERE "food_items"."food_list_id" = $1  [["food_list_id", 1]]
+  Rendered food_items/_food_item.html.slim (2.9ms)
+  [1m[36mRecipe Load (0.2ms)[0m  [1mSELECT "recipes".* FROM "recipes"  WHERE "recipes"."food_list_id" = $1[0m  [["food_list_id", 2]]
+  Rendered recipes/_recipe.html.slim (0.2ms)
+  [1m[35mFoodItem Load (0.3ms)[0m  SELECT "food_items".* FROM "food_items"  WHERE "food_items"."food_list_id" = $1  [["food_list_id", 2]]
+  Rendered food_items/_food_item.html.slim (0.3ms)
+  [1m[36mRecipe Load (0.2ms)[0m  [1mSELECT "recipes".* FROM "recipes"  WHERE "recipes"."food_list_id" = $1[0m  [["food_list_id", 3]]
+  Rendered recipes/_recipe.html.slim (0.1ms)
+  [1m[35mFoodItem Load (0.3ms)[0m  SELECT "food_items".* FROM "food_items"  WHERE "food_items"."food_list_id" = $1  [["food_list_id", 3]]
+  Rendered food_items/_food_item.html.slim (0.3ms)
+  [1m[36mRecipe Load (0.2ms)[0m  [1mSELECT "recipes".* FROM "recipes"  WHERE "recipes"."food_list_id" = $1[0m  [["food_list_id", 4]]
+  Rendered recipes/_recipe.html.slim (0.1ms)
+  [1m[35mFoodItem Load (0.2ms)[0m  SELECT "food_items".* FROM "food_items"  WHERE "food_items"."food_list_id" = $1  [["food_list_id", 4]]
+  Rendered food_items/_food_item.html.slim (0.6ms)
+  Rendered food_lists/_food_list.html.slim (107.6ms)
+  Rendered welcome/index.html.erb within layouts/application (146.3ms)
+Completed 200 OK in 234ms (Views: 145.5ms | ActiveRecord: 71.3ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-10-06 15:13:50 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-10-06 15:13:50 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-10-06 15:13:50 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-10-06 15:13:50 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-10-06 15:13:50 +0200
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-10-06 15:13:50 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-10-06 15:13:50 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-06 15:15:01 +0200
+Processing by WelcomeController#index as HTML
+  [1m[36mFoodList Load (0.4ms)[0m  [1mSELECT "food_lists".* FROM "food_lists"   ORDER BY "food_lists"."date" DESC[0m
+  [1m[35mRecipe Load (0.2ms)[0m  SELECT "recipes".* FROM "recipes"  WHERE "recipes"."food_list_id" = $1  [["food_list_id", 1]]
+  Rendered recipes/_recipe.html.slim (0.2ms)
+  [1m[36mFoodItem Load (0.2ms)[0m  [1mSELECT "food_items".* FROM "food_items"  WHERE "food_items"."food_list_id" = $1[0m  [["food_list_id", 1]]
+  Rendered food_items/_food_item.html.slim (2.7ms)
+  [1m[35mRecipe Load (0.3ms)[0m  SELECT "recipes".* FROM "recipes"  WHERE "recipes"."food_list_id" = $1  [["food_list_id", 2]]
+  Rendered recipes/_recipe.html.slim (0.2ms)
+  [1m[36mFoodItem Load (0.4ms)[0m  [1mSELECT "food_items".* FROM "food_items"  WHERE "food_items"."food_list_id" = $1[0m  [["food_list_id", 2]]
+  Rendered food_items/_food_item.html.slim (0.9ms)
+  [1m[35mRecipe Load (0.2ms)[0m  SELECT "recipes".* FROM "recipes"  WHERE "recipes"."food_list_id" = $1  [["food_list_id", 3]]
+  Rendered recipes/_recipe.html.slim (0.2ms)
+  [1m[36mFoodItem Load (0.2ms)[0m  [1mSELECT "food_items".* FROM "food_items"  WHERE "food_items"."food_list_id" = $1[0m  [["food_list_id", 3]]
+  Rendered food_items/_food_item.html.slim (0.5ms)
+  [1m[35mRecipe Load (0.3ms)[0m  SELECT "recipes".* FROM "recipes"  WHERE "recipes"."food_list_id" = $1  [["food_list_id", 4]]
+  Rendered recipes/_recipe.html.slim (0.2ms)
+  [1m[36mFoodItem Load (0.2ms)[0m  [1mSELECT "food_items".* FROM "food_items"  WHERE "food_items"."food_list_id" = $1[0m  [["food_list_id", 4]]
+  Rendered food_items/_food_item.html.slim (0.5ms)
+  Rendered food_lists/_food_list.html.slim (23.2ms)
+  Rendered welcome/index.html.erb within layouts/application (25.0ms)
+Completed 200 OK in 60ms (Views: 56.9ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-10-06 15:15:01 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-10-06 15:15:01 +0200
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-10-06 15:15:01 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-10-06 15:15:01 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-10-06 15:15:01 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-10-06 15:15:01 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-10-06 15:15:01 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-06 15:15:58 +0200
+Processing by WelcomeController#index as HTML
+  [1m[35mFoodList Load (0.3ms)[0m  SELECT "food_lists".* FROM "food_lists"   ORDER BY "food_lists"."date" DESC
+  [1m[36mRecipe Load (0.3ms)[0m  [1mSELECT "recipes".* FROM "recipes"  WHERE "recipes"."food_list_id" = $1[0m  [["food_list_id", 1]]
+  Rendered recipes/_recipe.html.slim (0.3ms)
+  [1m[35mFoodItem Load (0.2ms)[0m  SELECT "food_items".* FROM "food_items"  WHERE "food_items"."food_list_id" = $1  [["food_list_id", 1]]
+  Rendered food_items/_food_item.html.slim (6.4ms)
+  [1m[36mRecipe Load (0.2ms)[0m  [1mSELECT "recipes".* FROM "recipes"  WHERE "recipes"."food_list_id" = $1[0m  [["food_list_id", 2]]
+  Rendered recipes/_recipe.html.slim (0.2ms)
+  [1m[35mFoodItem Load (0.2ms)[0m  SELECT "food_items".* FROM "food_items"  WHERE "food_items"."food_list_id" = $1  [["food_list_id", 2]]
+  Rendered food_items/_food_item.html.slim (3.0ms)
+  [1m[36mRecipe Load (0.3ms)[0m  [1mSELECT "recipes".* FROM "recipes"  WHERE "recipes"."food_list_id" = $1[0m  [["food_list_id", 3]]
+  Rendered recipes/_recipe.html.slim (0.2ms)
+  [1m[35mFoodItem Load (0.4ms)[0m  SELECT "food_items".* FROM "food_items"  WHERE "food_items"."food_list_id" = $1  [["food_list_id", 3]]
+  Rendered food_items/_food_item.html.slim (3.3ms)
+  [1m[36mRecipe Load (0.2ms)[0m  [1mSELECT "recipes".* FROM "recipes"  WHERE "recipes"."food_list_id" = $1[0m  [["food_list_id", 4]]
+  Rendered recipes/_recipe.html.slim (0.3ms)
+  [1m[35mFoodItem Load (0.3ms)[0m  SELECT "food_items".* FROM "food_items"  WHERE "food_items"."food_list_id" = $1  [["food_list_id", 4]]
+  Rendered food_items/_food_item.html.slim (2.5ms)
+  Rendered food_lists/_food_list.html.slim (39.7ms)
+  Rendered welcome/index.html.erb within layouts/application (41.6ms)
+Completed 200 OK in 77ms (Views: 73.1ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-10-06 15:15:58 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-10-06 15:15:58 +0200
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-10-06 15:15:58 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-10-06 15:15:58 +0200
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-10-06 15:15:58 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-10-06 15:15:58 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-10-06 15:15:58 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-06 15:16:58 +0200
+Processing by WelcomeController#index as HTML
+  [1m[36mFoodList Load (0.3ms)[0m  [1mSELECT "food_lists".* FROM "food_lists"   ORDER BY "food_lists"."date" DESC[0m
+  [1m[35mRecipe Load (0.3ms)[0m  SELECT "recipes".* FROM "recipes"  WHERE "recipes"."food_list_id" = $1  [["food_list_id", 1]]
+  Rendered recipes/_recipe.html.slim (2.3ms)
+  [1m[36mFoodItem Load (0.3ms)[0m  [1mSELECT "food_items".* FROM "food_items"  WHERE "food_items"."food_list_id" = $1[0m  [["food_list_id", 1]]
+  Rendered food_items/_food_item.html.slim (2.5ms)
+  [1m[35mRecipe Load (0.2ms)[0m  SELECT "recipes".* FROM "recipes"  WHERE "recipes"."food_list_id" = $1  [["food_list_id", 2]]
+  Rendered recipes/_recipe.html.slim (0.2ms)
+  [1m[36mFoodItem Load (0.2ms)[0m  [1mSELECT "food_items".* FROM "food_items"  WHERE "food_items"."food_list_id" = $1[0m  [["food_list_id", 2]]
+  Rendered food_items/_food_item.html.slim (1.5ms)
+  [1m[35mRecipe Load (0.2ms)[0m  SELECT "recipes".* FROM "recipes"  WHERE "recipes"."food_list_id" = $1  [["food_list_id", 3]]
+  Rendered recipes/_recipe.html.slim (0.1ms)
+  [1m[36mFoodItem Load (0.2ms)[0m  [1mSELECT "food_items".* FROM "food_items"  WHERE "food_items"."food_list_id" = $1[0m  [["food_list_id", 3]]
+  Rendered food_items/_food_item.html.slim (1.6ms)
+  [1m[35mRecipe Load (0.2ms)[0m  SELECT "recipes".* FROM "recipes"  WHERE "recipes"."food_list_id" = $1  [["food_list_id", 4]]
+  Rendered recipes/_recipe.html.slim (0.2ms)
+  [1m[36mFoodItem Load (0.3ms)[0m  [1mSELECT "food_items".* FROM "food_items"  WHERE "food_items"."food_list_id" = $1[0m  [["food_list_id", 4]]
+  Rendered food_items/_food_item.html.slim (2.9ms)
+  Rendered food_lists/_food_list.html.slim (28.7ms)
+  Rendered welcome/index.html.erb within layouts/application (30.6ms)
+Completed 200 OK in 61ms (Views: 57.4ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-10-06 15:16:58 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-10-06 15:16:58 +0200
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-10-06 15:16:58 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-10-06 15:16:58 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-10-06 15:16:58 +0200
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-10-06 15:16:58 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-10-06 15:16:58 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-06 15:17:15 +0200
+Processing by WelcomeController#index as HTML
+  [1m[35mFoodList Load (0.3ms)[0m  SELECT "food_lists".* FROM "food_lists"   ORDER BY "food_lists"."date" DESC
+  [1m[36mRecipe Load (0.2ms)[0m  [1mSELECT "recipes".* FROM "recipes"  WHERE "recipes"."food_list_id" = $1[0m  [["food_list_id", 1]]
+  Rendered recipes/_recipe.html.slim (3.4ms)
+  [1m[35mFoodItem Load (0.3ms)[0m  SELECT "food_items".* FROM "food_items"  WHERE "food_items"."food_list_id" = $1  [["food_list_id", 1]]
+  Rendered food_items/_food_item.html.slim (9.5ms)
+  [1m[36mRecipe Load (0.4ms)[0m  [1mSELECT "recipes".* FROM "recipes"  WHERE "recipes"."food_list_id" = $1[0m  [["food_list_id", 2]]
+  Rendered recipes/_recipe.html.slim (0.3ms)
+  [1m[35mFoodItem Load (0.3ms)[0m  SELECT "food_items".* FROM "food_items"  WHERE "food_items"."food_list_id" = $1  [["food_list_id", 2]]
+  Rendered food_items/_food_item.html.slim (2.6ms)
+  [1m[36mRecipe Load (0.2ms)[0m  [1mSELECT "recipes".* FROM "recipes"  WHERE "recipes"."food_list_id" = $1[0m  [["food_list_id", 3]]
+  Rendered recipes/_recipe.html.slim (0.3ms)
+  [1m[35mFoodItem Load (0.3ms)[0m  SELECT "food_items".* FROM "food_items"  WHERE "food_items"."food_list_id" = $1  [["food_list_id", 3]]
+  Rendered food_items/_food_item.html.slim (9.7ms)
+  [1m[36mRecipe Load (0.2ms)[0m  [1mSELECT "recipes".* FROM "recipes"  WHERE "recipes"."food_list_id" = $1[0m  [["food_list_id", 4]]
+  Rendered recipes/_recipe.html.slim (0.2ms)
+  [1m[35mFoodItem Load (0.2ms)[0m  SELECT "food_items".* FROM "food_items"  WHERE "food_items"."food_list_id" = $1  [["food_list_id", 4]]
+  Rendered food_items/_food_item.html.slim (2.8ms)
+  Rendered food_lists/_food_list.html.slim (49.2ms)
+  Rendered welcome/index.html.erb within layouts/application (51.0ms)
+Completed 200 OK in 96ms (Views: 92.8ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-10-06 15:17:16 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-10-06 15:17:16 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-10-06 15:17:16 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-10-06 15:17:16 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-10-06 15:17:16 +0200
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-10-06 15:17:16 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-10-06 15:17:16 +0200
